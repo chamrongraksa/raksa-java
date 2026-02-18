@@ -1,7 +1,7 @@
 package rongraksa.example;
 
 public class PerfectNumber {
-    public static boolean isPerfectNumber(int number){
+    public static boolean isPerfectNumber(long number){
         if(number<1){
             return false;
         }
@@ -14,7 +14,7 @@ public class PerfectNumber {
         return sum==number;
     }
     public static void main(String[] args){
-        System.out.println(isPerfectNumber(28));
+        System.out.println(isPerfectNumber(2800000L));
     }
 
 }
